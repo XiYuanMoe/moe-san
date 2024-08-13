@@ -1,58 +1,58 @@
-body {
-    margin: 0;
-}
+/*body {*/
+/*    margin: 0;*/
+/*}*/
 
-/* 顶部导航栏 */
-.topnav {
-    height: auto;
-    overflow: hidden;
-    background-color: pink;
-    padding-right: 5em;
-}
+/*!* 顶部导航栏 *!*/
+/*.topnav {*/
+/*    height: auto;*/
+/*    overflow: hidden;*/
+/*    background-color: pink;*/
+/*    padding-right: 5em;*/
+/*}*/
 
-/* 靠左 */
-.topnav .left {
-    float: left;
-}
+/*!* 靠左 *!*/
+/*.topnav .left {*/
+/*    float: left;*/
+/*}*/
 
-/* 靠右 */
-.topnav .right {
-    float: right;
-}
+/*!* 靠右 *!*/
+/*.topnav .right {*/
+/*    float: right;*/
+/*}*/
 
-/* 图标 */
-.topnav img.icon {
-    height: 6.5em;
-    opacity: 0.9;
-}
+/*!* 图标 *!*/
+/*.topnav img.icon {*/
+/*    height: 6.5em;*/
+/*    opacity: 0.9;*/
+/*}*/
 
-/* 顶栏标题 */
-.topnav a.title {
-    display: block;
-    color: rgb(255, 255, 255);
-    text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.24);
-    text-align: center;
-    text-decoration: none;
-    font-weight: 800;
-    font-size: 3em;
-    padding: 0.4em;
-}
+/*!* 顶栏标题 *!*/
+/*.topnav a.title {*/
+/*    display: block;*/
+/*    color: rgb(255, 255, 255);*/
+/*    text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.24);*/
+/*    text-align: center;*/
+/*    text-decoration: none;*/
+/*    font-weight: 800;*/
+/*    font-size: 3em;*/
+/*    padding: 0.4em;*/
+/*}*/
 
-/* 顶栏选项 */
-.topnav a.option {
-    display: block;
-    color: rgb(255, 255, 255);
-    text-shadow: 0px 0px 3px black;
-    text-align: center;
-    text-decoration: none;
-    font-weight: 800;
-    padding: 1em 1em;
-    font-size: 2em;
-}
+/*!* 顶栏选项 *!*/
+/*.topnav a.option {*/
+/*    display: block;*/
+/*    color: rgb(255, 255, 255);*/
+/*    text-shadow: 0px 0px 3px black;*/
+/*    text-align: center;*/
+/*    text-decoration: none;*/
+/*    font-weight: 800;*/
+/*    padding: 1em 1em;*/
+/*    font-size: 2em;*/
+/*}*/
 
-.topnav a.option:hover {
-    transition-duration: 100ms;
-    background-color: white;
-    color: rgb(151, 0, 83);
-    text-shadow: none;
-}
+/*.topnav a.option:hover {*/
+/*    transition-duration: 100ms;*/
+/*    background-color: white;*/
+/*    color: rgb(151, 0, 83);*/
+/*    text-shadow: none;*/
+/*}*/

@@ -1,0 +1,29 @@
+.bg {
+    background-color: #121212;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.box {
+    margin: 10px 20px auto 20px;
+}
+
+.content {
+    background-color: #fff;
+    margin-top: 20px
+}
+
+.header-icon {
+}
+
+.header-link {
+}
+
+.header-link > * {
+    margin-right: 20px;
+}
