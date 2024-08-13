@@ -1,42 +1,58 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body {
+    margin: 0;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* 顶部导航栏 */
+.topnav {
+    height: auto;
+    overflow: hidden;
+    background-color: pink;
+    padding-right: 5em;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* 靠左 */
+.topnav .left {
+    float: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+/* 靠右 */
+.topnav .right {
+    float: right;
 }
 
-.card {
-  padding: 2em;
+/* 图标 */
+.topnav img.icon {
+    height: 6.5em;
+    opacity: 0.9;
 }
 
-.read-the-docs {
-  color: #888;
+/* 顶栏标题 */
+.topnav a.title {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.24);
+    text-align: center;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 3em;
+    padding: 0.4em;
+}
+
+/* 顶栏选项 */
+.topnav a.option {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 3px black;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 800;
+    padding: 1em 1em;
+    font-size: 2em;
+}
+
+.topnav a.option:hover {
+    transition-duration: 100ms;
+    background-color: white;
+    color: rgb(151, 0, 83);
+    text-shadow: none;
 }
