@@ -7,12 +7,14 @@ export default function ErrorPage() {
 
     return (
         <>
-            <div className={`${styles["bg"]} ${styles["error-content"]}`}>
-                <h1>おっと!</h1>
-                <p>いくつかの小さなエラーが発生しました</p>
-                <p>
-                    <i>{error.status} {error.statusText}</i>
-                </p>
+            <div className={styles.bg}>
+                <div className={styles.errorContent}>
+                    <h1>おっと!</h1>
+                    <p>いくつかの小さなエラーが発生しました</p>
+                    <p>
+                        <i>{error.status} {error.statusText}</i>
+                    </p>
+                </div>
             </div>
         </>
     )

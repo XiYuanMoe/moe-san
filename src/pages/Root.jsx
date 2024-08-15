@@ -6,15 +6,15 @@ export default function Root() {
 
     return (
         <>
-            <div className={styles["bg"]}>
-                <div className={styles["box"]}>
+            <div className={styles.bg}>
+                <div className={styles.box}>
                     <HeaderBar>
-                        <div className={styles["header-icon"]}>
+                        <div className={styles.headerIcon}>
                             <Link to="/">
                                 西苑萌战
                             </Link>
                         </div>
-                        <div className={styles["header-link"]}>
+                        <div className={styles.headerLink}>
                             <Link to="/history">
                                 历史赛程
                             </Link>
@@ -23,7 +23,8 @@ export default function Root() {
                             </Link>
                         </div>
                     </HeaderBar>
-                    <div className={styles["content"]}>
+
+                    <div className={styles.content}>
                         <Outlet/>
                     </div>
                 </div>

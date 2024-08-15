@@ -1,12 +1,11 @@
 .bg {
-    background-color: #121212;
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    width: 100%;
     position: fixed;
+    background-color: #121212;
     top: 0;
     left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0) 70%);
 }
 
 .box {
@@ -14,16 +13,35 @@
 }
 
 .content {
-    background-color: #fff;
-    margin-top: 20px
+    position: relative;
+    /*background-color: #fff;*/
+    color: #fdfcfb;
+    top: 100px;
+    left: 10px;
+    right: 10px;
+    user-select: none;
 }
 
 .header-icon {
+    font-size: 30px;
+    margin-left: 20px;
+
+    > * {
+        text-decoration: none;
+        background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+        background-clip: text;
+        color: transparent;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
 }
 
 .header-link {
-}
-
-.header-link > * {
     margin-right: 20px;
+
+    > * {
+        text-decoration: none;
+        margin-left: 20px;
+        color: white;
+    }
 }
